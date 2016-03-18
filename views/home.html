@@ -1,0 +1,120 @@
+<ion-view view-title="Music APP">
+    <!-- HEADER -->
+  	<ion-content class="background" scroll="false">
+	    <div>
+		    <div class="bg-header item item-avatar " href="#">
+		      <img class="load-image">
+		      <h2 class="light">Hey buddy</h2>
+		      <span class="stable">We have 3 new albums this week!</span>
+		    </div>
+		</div>
+	</ion-content>
+	<!-- /HEADER -->
+	<!-- MENU1 -->
+	<ion-content scroll="true" class="margin-ion-bars" >
+		<div>
+			<a ng-click="showPanel=!showPanel" class="bg-content item item-icon-left" href="#">
+			    <i class="icon ion-ios-musical-notes"></i>
+			    Stachelight
+			    <span class="item-note dark">
+			    par Deluxe
+			    </span>
+			</a>
+		</div>
+	<!-- /MENU1 -->
+	<!-- PANEL1 -->
+		<div ng-if="showPanel" class="fade bg-content2 list card">
+		  <div class="item-avatar">
+		    <img class="load-image2">
+			    <div class="range">
+				  <i class="icon ion-sad-outline"></i>
+				  <input type="range" name="volume">
+				  <i class="icon ion-happy-outline"></i>
+				</div>
+		  </div>
+		  <!-- CONTENT -->
+		  <div class="bg-content2 item item-body">
+		    <h3>Deluxe</h3>
+		    <p>
+		      Le groupe se compose à l'origine de cinq amis qui se produisent dans la rue et séduisent les passants d'Aix-en-Provence. Ils rencontrent ensuite Liliboy qui devient la chanteuse du groupe en décembre 2011. C'est à travers cette expérience que le groupe a pu acquérir la spontanéité et la frénésie qui les habitent sur scène et qui transpirent dans leurs compositions.
+		    </p>
+		    <p>
+		      <a href="#" class="subdued">1 Like</a>
+		      <a href="#" class="subdued">5 Comments</a>
+		      <a ui-sref="onair" class="subdued positive text-right">Launch the album</a>
+		    </p>
+		  </div>
+		</div>
+	<!-- /PANEL1 -->
+	<!-- MENU2 -->
+		<div ng-click="showPanel2=!showPanel2">
+			<a class="bg-content item item-icon-left" href="#">
+			    <i class="icon ion-ios-musical-notes"></i>
+			    Luxe
+			    <span class="item-note dark">
+			    par Stranded Horse
+			    </span>
+			</a>
+		</div>
+	<!-- /MENU2 -->
+	<!-- PANEL2 -->
+		<div ng-if="showPanel2" class="fade bg-content2 list card">
+		  <div class="item-avatar">
+		    <img class="load-image2">
+			    <div class="range">
+				  <i class="icon ion-sad-outline"></i>
+				  <input type="range" name="volume">
+				  <i class="icon ion-happy-outline"></i>
+				</div>
+		  </div>
+		  <!-- CONTENT -->
+		  <div class="bg-content2 item item-body">
+		    <h3>Stranded Horse</h3>
+		    <p>
+		      Encre, alias Yann Tambour, est un artiste et musicien français, aussi connu sous le nom de Thee, stranded horse. La musique d'Encre est un mélange de samples d'instruments à corde, de voix et de piano avec un travail méticuleux de sampling.
+		    </p>
+		    <p>
+		      <a href="#" class="subdued">8 Likes</a>
+		      <a href="#" class="subdued">15 Comments</a>
+		      <a ui-sref="onair" class="subdued positive text-right">Launch the album</a>
+		    </p>
+		  </div>
+		</div>
+	<!-- /PANEL2 -->
+	<!-- MENU3 -->
+		<div ng-click="showPanel3=!showPanel3">
+			<a class="bg-content item item-icon-left" href="#">
+			    <i class="icon ion-ios-musical-notes"></i>
+			    Matter
+			    <span class="item-note dark">
+			    par St. Lucia
+			    </span>
+			</a>
+		</div>
+	<!-- /MENU3 -->
+	<!-- PANEL3 -->
+		<div ng-if="showPanel3" class="fade bg-content2 list card">
+		  <div class="item-avatar">
+		    <img class="load-image2">
+			    <div class="range">
+				  <i class="icon ion-sad-outline"></i>
+				  <input type="range" name="volume">
+				  <i class="icon ion-happy-outline"></i>
+				</div>
+		  </div>
+		  <!-- CONTENT -->
+		  <div class="bg-content2 item item-body">
+		    <h3>St. Lucia</h3>
+		    <p>
+		      Jean-Philip Grobler, known by his stage name St. Lucia, is a South African-born, Brooklyn-based musician. He is signed to Neon Gold Records which released his self-titled EP and his debut album When the Night.
+		    </p>
+		    <p>
+		      <a href="#" class="subdued">9 Likes</a>
+		      <a href="#" class="subdued">12 Comments</a>
+		      <a ui-sref="onair" class="subdued positive text-right">Launch the album</a>
+		    </p>
+		  </div>
+		</div>
+	<!-- /PANEL3 -->
+    </ion-content>
+  </ion-view>

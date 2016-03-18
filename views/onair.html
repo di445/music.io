@@ -1,0 +1,32 @@
+<ion-view view-title="Music APP">
+  	<ion-content class="background2">
+	    <div>
+		    <div class="bg-content-transp2 card">
+			  <div class="item item-text-wrap">
+			    <i class="icon ion-ios-musical-notes"></i>
+				    Stachelight
+				    <span class="item-note dark">
+				    par Deluxe
+				    </span>
+			  </div>
+			</div>
+	    	<div class="bg-content-transp2 list card">
+				<div class="range">
+					<i class="icon ion-volume-low"></i>
+					<input type="range" name="volume">
+					<i class="icon ion-volume-high"></i>
+				</div>
+
+			  	<div class="lecteur"></div>
+				<ion-spinner icon="ripple"></ion-spinner>
+
+				<div ng-class="playbutton ? 'refresh-disabled' : 'refresh'" class='record'>
+				</div>
+			</div>
+		</div>
+		<div class="row responsive-sm text-center">
+	  		<div class="col"><button ng-click="playbutton = !playbutton" class="button icon-left ion-ios-pause">Pause</button>
+	  		</div>
+  		</div>	
+	</ion-content>
+</ion-view>

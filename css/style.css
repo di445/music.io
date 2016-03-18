@@ -1,0 +1,91 @@
+body{
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+.background.scroll-content{ 
+	background: url('../img/sunset.jpg') no-repeat; 
+	background-size: cover; 
+	background-position: center; 
+	margin: auto; 
+}
+
+.background2.scroll-content{ 
+	background: url('../img/piano.jpg') no-repeat; 
+	background-size: cover; 
+	background-position: center; 
+	margin: auto; 
+}
+
+.load-image {
+	background: url("http://lorempixel.com/100/100");
+	background-size: cover; 
+	background-position: center; 
+	margin: auto; 
+}
+
+.load-image2 {
+	background: url("http://lorempixel.com/80/80");
+	background-size: cover; 
+	background-position: center; 
+	margin: auto; 
+}
+
+.bg-header {
+	background: linear-gradient(to left, rgba(0,0,0,0.8), rgba(0,0,0,0.6));
+	border-style: none;
+
+}
+
+.bg-content {
+	background: linear-gradient(to left, rgba(255,255,255,0.5), rgba(255,255,255,0.3));
+	border-style: none;
+	margin-bottom: 2px;
+
+}
+
+.bg-content2 {
+	background: linear-gradient(to left, rgba(255,255,255,0.8), rgba(255,255,255,0.5));
+	border-style: none;
+
+}
+
+.bg-content-transp2 {
+	background: rgba(255, 255, 255, 0.7);
+	border-style: none;
+
+}
+
+.item.item-text-wrap {
+	background: rgba(255, 255, 255, 0.1);
+	
+}
+
+.margin-ion-bars {
+	margin-top: 73px;
+	margin-bottom: 40px;
+}
+
+/* Fade effect for the enter animation */
+.fade.ng-enter {
+  transition:0.5s linear all;
+  opacity:0;
+  transform:translateX(-100px);
+
+}
+
+.fade.ng-enter.ng-enter-active {
+  opacity:1;
+  transform:translateX(0px);
+}
+
+.fade.ng-leave {
+  transition:0.5s linear all;
+  opacity:1;
+  transform:translateX(0px);
+
+}
+.fade.ng-leave.ng-leave-active {
+  opacity:0;
+  transform:translateX(100px);
+}
+
